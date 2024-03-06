@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"
+            style="background-size: cover; background-repeat: no-repeat; background-position: center; background-image: url('https://scp-wiki.wdfiles.com/local--files/theme:scp-offices-sigma/scpoffices_logo.svg');">
+            <h1>你的SCP年终总结报告</h1>
+            <h2>二级标题测试</h2>
+            <h3>三级标题测试</h3>
+            <p>这是一个测试页面，用于测试Swiper的效果</p>
+            <p>背景图是SCP办公室Sigma-9板式中的图片样例。</p>
+        </div>
+
+        <div class="swiper-slide"
+            style="background-size: cover; background-repeat: no-repeat; background-position: center; background-image: url('https://scp-wiki.wdfiles.com/local--files/theme%3Askipos/skipos.png');">
+            Slide 2</div>
+        <div class="swiper-slide">
+            <h1>我懒得找另一张图了总之这是第三个页面，也是样例中的最后一个页面</h1>
+            <h1>页面里面只有纯文字和背景想排版好看还挺难的，在百度上面搜索“纯文字也好看的页面设计”搜到了https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4410132884838605647
+                也许可以参考一下</h1>
+            <h1>好多东西要做。。。！！！</h1>
+        </div>
+        <!-- 更多的滑动页面 -->
+    </div>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        loop: false,
+        mousewheel: {
+            invert: false,
+            sensitivity: 0.5,
+            releaseOnEdges: true,
+        },
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
